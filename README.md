@@ -1,51 +1,25 @@
-# Natural ou Fake Natty? Como Vencer na Era das IAs Generativas
-
-## 🚀 Introdução
-
-> Woooow! Look at this 👀
-
-Olá pessoal, Venilton da DIO aqui! Inspirado na hype _"Natty or Not"_ do fisiculturismo, este Lab da DIO te convida a conhecer o mundo das IAs Generativas, explorando o potencial dessas tendências tecnológicas incríveis!
-
-## 🎯 Bora Pro Desafio!? Você Já Venceu 💪🤓
-
-### Objetivos
-
-1. **Explorar IAs Generativas**: Utilize essas tecnologias para criar conteúdos que sejam o mais realista possível. Seja criativo! Você pode produzir imagens, textos, áudios, vídeos ou combinações de tudo isso!
-1. **Potfólio de Projetos**:
-    1. Faça o "fork" deste repositório, criando uma cópia em seu GitHub pessoal;
-    2. Edite seu README com os detalhes do seu projeto, siga nosso [Template](#template) (é só copiar, colar e preencher);
-    3. Submeta o link do seu repositório na plataforma da DIO. Pronto, você acabou de fortalecer seu portfólio de projetos nos perfis do GitHub e DIO 🚀
-1. **Efeito de Rede**: Compartilhe seus resultados nas redes sociais com a hashtag **#LabDIONattyOrNot**. Não esqueça de nos marcar: [DIO](https://www.linkedin.com/school/dio-makethechange) e [falvojr](https://www.linkedin.com/in/falvojr).
-
-### Template
-
-```markdown
-# Título do Projeto Extremamente Aesthetic ;)
+# Aplicativo de Receitas por IA
 
 ## 📒 Descrição
-Breve descrição do seu projeto
+Este projeto é um aplicativo de iOS desenvolvido em Swift que permite ao usuário definir pelo menos 3 alimentos e receber a descrição de uma receita gerada por uma IA. A aplicação demonstra como integrar serviços de IA generativa com uma aplicação móvel para enriquecer a experiência do usuário.
 
 ## 🤖 Tecnologias Utilizadas
-Liste as IAs Generativas e outras ferramentas usadas
+- **Swift**: Linguagem de programação usada para desenvolver o aplicativo.
+- **GPT-4 da OpenAI**: Modelo de linguagem utilizado para gerar descrições automáticas de imagens.
+- **UIKit**: Framework utilizado para construir a interface do usuário.
+- **URLSession**: Para fazer requisições HTTP e integrar com o serviço da OpenAI.
 
 ## 🧐 Processo de Criação
-Descreva como você criou o conteúdo
+1. **Configuração do Projeto**: Iniciamos criando um novo projeto no Xcode e configurando a interface várias UIViews com UIImages contendo imagens de alimentos para gerar a receita no UITextView em outra tela.
+2. **Integração com a IA**: Utilizamos a API do GPT-3.5 para enviar os alimentos escolhidos e receber a receita. Para isso, configuramos as requisições HTTP usando URLSession.
+3. **Interface do Usuário**: Desenvolvemos uma interface simples onde o usuário pode escolher três alimentos e então com esses alimentos escolhidos é requisitado ao serviço de IA para gerar uma receita.
+4. **Exibição do Resultado**: A receita gerada pela IA é exibida na interface do usuário.
 
 ## 🚀 Resultados
-Apresente os resultados do seu projeto
+- **Interface Simples e Intuitiva**: Os usuários podem facilmente escolher no mínimo 3 alimentos e receber uma deliciosa receita.
+- **Geração de Descrições Precisas**: Utilizando o GPT-3.5, conseguimos gerar receitas detalhadas e precisas dos alimentos escolhidos pelo usuário.
+- **Demonstração de Integração com IA**: Este projeto serve como um exemplo prático de como integrar serviços de IA generativa em aplicações móveis, oferecendo um valor adicional aos usuários.
 
-## 💭 Reflexão (Opcional)
-Comente sobre o desafio de criar algo 'natty' com IA.
-```
+## Link para o Repositório do App
+[link para o repositorio do app](https://github.com/glaubergustavo/RecipeByAI)
 
-### Exemplos e Insigths
-
-- [E-BOOK](/exemplos/E-BOOK.md)
-- [Podcast](/exemplos/PODCAST.md)
-- [Vídeo (Avatar Virtual)](/exemplos/VIDEO.md)
-
-## Links Interessantes
-
-[Base10: If You’re Not First, You’re Last: How AI Becomes Mission Critical](https://base10.vc/post/generative-ai-mission-critical/)
-
-![Base10's Trend Map Generative AI](https://github.com/digitalinnovationone/lab-natty-or-not/assets/730492/f4df26e8-f8f7-4419-8252-c69d73ea930c)
